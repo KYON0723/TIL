@@ -48,4 +48,6 @@
 
 
 
-* `순서` : `git add . ` => `git commit -m '메세지'` => `git push` 
+* `Git 연결하기` : `cd ssafy7/TIL`
+
+* `커밋 순서` : `git add . ` => `git commit -m '메세지'` => `git push` 
