@@ -39,3 +39,9 @@
 
 
 * `git commit -m "내용"` : 실행창 없이 메세지만 넣기
+
+
+
+* `git remote add origin https://github.com/닉네임/폴더.git` : 업로드 위치 지정
+* `git push -u origin master` : 로그인창
+* `git push` : Git 허브에 저장
