@@ -21,7 +21,7 @@
 * `untracked` : 빨간색, 처음으로 관리대는 대상
 * `tracked` : 관리되고 있는 대상
   * `modified` : 녹색
-  * `unmodified` 
+  * `unmodified` : 빨강
 
 
 
