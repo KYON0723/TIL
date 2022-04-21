@@ -1,4 +1,14 @@
 ```
+pip install django-seed
+
+pip install djangorestframework
+
+pip install psycopg2
+
+# 더미 데이터 생성 방법
+Dummy Data
+	python manage.py seed articles --number=20
+
 HTTP - Hyper Text Transfer Protocol
 	- request - 요청 (GET, POST, PUT, DELETE)
 	- response - 응답
@@ -25,10 +35,6 @@ API - Application Programing Interface - 방식 : CLI, GUI 등
 REST - REpresentational State Transfer - API 개발 설계 방법론
 	
 JSON - JavaScript Object Notation
-
-# 더미 데이터 생성 방법
-Dummy Data
-	python manage.py seed articles --number=20
 
 Django Rest Framework
 	pip install djangorestframework
@@ -62,7 +68,7 @@ comment_count = serializers.IntegerField(source='comment_set.count', read_only=T
 	- 댓글 갯수 카운트
 			
 		
-
+pip install drf-yasg
 
 ```
 
