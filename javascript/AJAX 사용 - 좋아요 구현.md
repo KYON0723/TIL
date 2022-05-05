@@ -35,6 +35,7 @@
 
             if (res.liked) {
               likeBtn.innerHTML = 
+              # 아이콘 설정
               '<i class="fa-solid fa-heart" style="color:crimson;"></i>'
 
             }else {
