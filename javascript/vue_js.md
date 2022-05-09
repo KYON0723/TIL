@@ -25,6 +25,32 @@
 
 # data, method 정의시 화살표 사용 x
 
+# 초기 생성
+- vue create (app 이름)
 
+# vue CLI
+- install시 -g 하면 글로벌 설치 -> 임의로 사용 금지, 필요시만 사용
+
+# npm run serve
+- 서버 실행
+
+# Babel
+- 함수를 번역해줌 (compiler)
+
+# Webpack
+- 모듈 번들러
+- 모듈간 의존성 문제를 해결하기 위한 도구
+
+# src 폴더
+- 실제 작업할 폴더
+
+# package / package-lock
+- requirements.txt 와 같은 역할
+
+# vue + enter
+- 기본 틀 제공
+
+# vue router
+- npm install vue-router@4
 ```
 
