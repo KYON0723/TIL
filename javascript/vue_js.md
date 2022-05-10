@@ -52,5 +52,11 @@
 
 # vue router
 - npm install vue-router@4
+
+# this.$emit()
+- 자식 -> 부모로 데이터를 보낼 때 사용
+
+# props
+- 부모 -> 자식으로 데이터를 보낼 때 사용
 ```
 
