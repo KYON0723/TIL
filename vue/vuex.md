@@ -46,7 +46,7 @@
 # 전개구문
 - '...' 을 사용
 - key가 0개 이상인 iterable object를 하나의 object로 간단하게 표현
-- ex) 
+- ex)   
 
 ```
 
