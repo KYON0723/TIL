@@ -31,7 +31,6 @@
 - state를 변경하지 않고 값을 이용 => 출력, 계산 등등
 - computed 와 유사
 
-
 # session storage
 - tab을 닫으면 날아감
 
@@ -46,7 +45,18 @@
 # 전개구문
 - '...' 을 사용
 - key가 0개 이상인 iterable object를 하나의 object로 간단하게 표현
-- ex)   
+- ex) ...todo
+
+# LocalStorage
+- vuex-persistedstate
+- 새로고침 해도 로컬 저장소에 데이터를 저장해 두어서 state를 유지함
+- npm install vuex-persistedstate
+- import createPersistedState from 'vuex-persistedstate'
+- plugeins: [
+		createdPersistedState(),
+	]
+- 위 3개 필수
+
 
 ```
 
