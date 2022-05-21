@@ -38,14 +38,15 @@
 - 사용자 컴퓨터에 데이터 저장
 - 데이터베이스 역할을 함
 
-# vuex-persistedstate
-- 창 새로고침시에 상태 초기화 방지
-- npm install vuex-persistedstate 필요
-
 # 전개구문
 - '...' 을 사용
 - key가 0개 이상인 iterable object를 하나의 object로 간단하게 표현
 - ex) ...todo
+
+# vuex-persistedstate
+- 창 새로고침시에 상태 초기화 방지
+- npm install vuex-persistedstate 필요
+- 아래 상세설명 참조
 
 # LocalStorage
 - vuex-persistedstate
