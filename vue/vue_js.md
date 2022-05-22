@@ -14,7 +14,6 @@
 - View -> DOM
 - ViewModel -> Vue Instance
 
-
 # Vue js
 - CDN 2 버전 사용
 - 3버전은 교육에 사용 x
