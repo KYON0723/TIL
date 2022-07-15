@@ -1,0 +1,154 @@
+```
+# vue js
+- Evan You 창시
+
+# SPA   
+- Single Page Application
+- 현재 페이지를 동적으로 렌더링
+       
+# SSR / CSR 
+- 랜더링을 서버가 하면 SSR - 초기구동 빠름 , 매번 새로 고침 
+- 클라이언트가 하면 CSR -> SPA 의 방식 - 초기구동 느림, 필요한 부분만 데이터 새로 받음
+  
+# SEO
+- 검색 엔진 최적화
+
+# 일반 JS 
+- 데이터 수정시 일일히 다 해야함
+ 
+# Vue.js
+- DOM 과 Data가 연결 되어 있으면 Data를 변경하면 DOM은 알아서 변경
+
+# MVVM 패턴
+- Model - View - ViewModel
+- Model -> JS Object
+- View -> DOM
+- ViewModel -> Vue Instance
+
+# Vue js
+- CDN 2 버전 사용
+- 3버전은 교육에 사용 x
+
+# v-(동작)
+- vue 가 수행할 동작을 연결
+- v-if / v-onclick 등등
+- v-text='' 와 {{ }} 는 같은 기능
+- v-html -> xss 공격 취약
+- v-for="abc in abcs"
+- v-on:click / @click
+- v-bind:href / :href
+
+# data, method 정의시 화살표 사용 x
+
+# computed
+- 함수 반환값이 바인딩 됨
+- method와 달리 종속 대상이 바뀌지 않으면 호출을 여러번 해도 계산되어있는 결과를 반환
+
+# 초기 생성
+- vue create (app 이름)
+
+# vue CLI
+- install시 -g 하면 글로벌 설치 -> 임의로 사용 금지, 필요시만 사용
+
+# Node.js
+- js를 브라우저가 아닌 환경에서도 구동가능하게 하는 런타임 환경 -> Ryan Dahl
+
+# npm run serve
+- 서버 실행
+
+# Babel
+- 함수를 번역해줌 (compiler)
+
+# Webpack
+- 모듈 번들러
+- 모듈간 의존성 문제를 해결하기 위한 도구
+
+# src 폴더
+- 실제 작업할 폴더
+
+# package / package-lock
+- requirements.txt 와 같은 역할
+
+# vue + enter
+- 기본 틀 제공
+
+# vue router
+- vue add router (설치)
+- router-link to="주소" => 연결된 컴포넌트로 이동 / 혹은 router-link :to="{name: (이름)}"
+- router-view => 연결된 컴포넌트가 보이는곳
+
+# this.$emit()
+- 자식 -> 부모로 데이터를 보낼 때 사용
+
+# props
+- 부모 -> 자식으로 데이터를 보낼 때 사용
+
+# data
+- 반드시 함수형태
+- return 으로 객체를 반환해야함
+
+# history mode
+- 페이지 재로드 x , URL 탐색 가능
+- 히스토리는 남지만 실제 페이지 이동 x
+
+# vuex
+- 상태관리 패턴 + 라이브러리
+- 상태를 전역 저장소로 관리 할 수 있도록 지원하는 라이브러리 -> 중앙 집중식 저장소 역할
+- 기존 방식은 단방향 흐름에 의존하므로 프로젝트 규모가 커지면 데이터 관리가 불편해짐
+- 이 방식은 중앙 저장소(store)에 상태를 모아놓고 관리
+- 규모가 큰(중첩이 많음) 프로젝트에서 매우 효율적
+
+# 시작하기
+- vue add vuex -> 설치
+- store 생성됨
+- index.js 생성됨 => 함수가 작성되는 곳
+
+# state
+- 중앙에서 관리하는 모든 정보 (data)
+- 모든 컴포넌트가 state를 참조함
+
+# Mutations
+- state를 실제로 조작하는 유일한 방법
+- 동기적 함수
+- 첫번째 인자는 항상 state
+- Actions 에서 commit() 으로 호출
+
+# Actions
+- Mutations를 호출하여 사용 -> 간접적으로 state 조작
+- 비동기 작업이 포함 될 수 있음
+- context 객체 인자를 받음
+- 컴포넌트에서 dispatch() 로 호출
+
+# Getters
+- state를 변경하지 않고 값을 이용 => 출력, 계산 등등
+- computed 와 유사
+
+# session storage
+- tab을 닫으면 날아감
+
+# local storage
+- 사용자 컴퓨터에 데이터 저장
+- 데이터베이스 역할을 함
+
+# vuex-persistedstate
+- 창 새로고침시에 상태 초기화 방지
+- npm install vuex-persistedstate 필요
+
+# 전개구문
+- '...' 을 사용
+- key가 0개 이상인 iterable object를 하나의 object로 간단하게 표현
+- ex) ...todo
+
+# LocalStorage
+- vuex-persistedstate
+- 새로고침 해도 로컬 저장소에 데이터를 저장해 두어서 state를 유지함
+- npm install vuex-persistedstate
+- import createPersistedState from 'vuex-persistedstate'
+- plugeins: [
+		createdPersistedState(),
+	]
+- 위 3개 필수
+
+
+```
+
